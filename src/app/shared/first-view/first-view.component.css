@@ -2,8 +2,6 @@
     padding-top: 2rem;
     min-height: 100vh;
     width: 100%;
-    background: linear-gradient(to bottom, #c9d9e4, #8697A3, #ececec);
-    background-attachment: fixed;
 }
 
 .title-dev {
@@ -75,4 +73,6 @@
 .frame #marc {
     width: 100%;
     height: 57vh;
+    box-shadow: 10px 10px 10px #5e5c5c;
+
 }
