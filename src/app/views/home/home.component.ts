@@ -3,11 +3,12 @@ import { NavComponent } from '../../shared/components/nav/nav.component';
 import { FirstViewComponent } from '../../shared/first-view/first-view.component';
 import { SecondViewComponent } from '../../shared/second-view/second-view.component';
 import { ThirdViewComponent } from '../../shared/third-view/third-view.component';
+import { FooterComponent } from '../../shared/components/footer/footer.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavComponent, FirstViewComponent, SecondViewComponent, ThirdViewComponent],
+  imports: [NavComponent, FooterComponent, FirstViewComponent, SecondViewComponent, ThirdViewComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
