@@ -6,9 +6,16 @@
                     <h2 id="name">JUAN SEBASTIAN NIÑO</h2>
                 </div>
             </div>
-            <div class="row stack">
-                <div class="col"><i class="devicon-github-original-wordmark colored"></i></div>
-                <div class="col"><i class="devicon-linkedin-plain"></i></div>
+            <div class="row networks">
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                    <span (click)="goToGithub()" style="cursor: pointer;" onkeydown="">
+                        <i class="devicon-github-original-wordmark colored"></i>
+                    </span>
+                    <span (click)="goToLinkedin()" style="cursor: pointer;" onkeydown="">
+                        <i class="devicon-linkedin-plain"></i>
+                    </span>
+                </div>
+
             </div>
             <div class="row p-3">
                 <div class="col"><a class="btn btn-primary" href="#second-view">ABOUT ME</a>
@@ -23,7 +30,7 @@
         <div class="button-container">
         </div>
         <div class="image-container">
-            <img src="assets/images/engels.png" id="angels" alt="Juan Sebastian Niño" >
+            <img src="assets/images/engels.png" id="angels" alt="Juan Sebastian Niño">
             <div class="frame">
                 <img src="assets/images/frame.png" id="marc" alt="Juan Sebastian Niño">
             </div>
