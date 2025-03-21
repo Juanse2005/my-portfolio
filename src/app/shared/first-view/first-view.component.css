@@ -28,7 +28,7 @@
     padding: 0;
 }
 
-.namestacks {
+.name-networks {
     position: absolute;
     text-align: center;
     right: 2rem;
@@ -42,7 +42,7 @@
 }
 
 .col i {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .image-container {
