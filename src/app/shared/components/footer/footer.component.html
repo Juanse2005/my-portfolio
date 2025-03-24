@@ -1,20 +1,19 @@
 <div class="container-fluid">
-    <blockquote class="blockquote mb-0">
-        <p>"No se pueden unir los puntos mirando hacia delante; sólo se pueden unir mirando hacia atrás. </p>
-        <p>Así que hay que confiar en que los puntos se unirán de algún modo en el futuro"</p>
-        <cite title="Source Title">- Steve Jobs</cite>
-    </blockquote>
-
-    <span (click)="goToGithub()" style="cursor: pointer;" onkeydown="">
-        <i class="devicon-github-original-wordmark colored"></i>
-    </span>
-    <span (click)="goToLinkedin()" style="cursor: pointer;" onkeydown="">
-        <i class="devicon-linkedin-plain"></i>
-    </span>
-
-    <span (click)="goToLinkedin()" style="cursor: pointer;" onkeydown="">
-        <i class="devicon-facebook-plain"></i>
-    </span>
-
-
+    <div class="row">
+        <div class="col">
+            <blockquote class="blockquote mb-0">
+                <p>"No se pueden unir los puntos mirando hacia delante; sólo se pueden unir mirando hacia atrás. </p>
+                <p>Así que hay que confiar en que los puntos se unirán de algún modo en el futuro"</p>
+                <cite title="Source Title">- Steve Jobs</cite>
+            </blockquote>
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <span (click)="goToGithub()" style="cursor: pointer;" onkeydown="">
+                    <i class="devicon-github-original-wordmark colored"></i>
+                </span>
+                <span (click)="goToLinkedin()" style="cursor: pointer;" onkeydown="">
+                    <i class="devicon-linkedin-plain"></i>
+                </span>
+            </div>
+        </div>
+    </div>
 </div>
