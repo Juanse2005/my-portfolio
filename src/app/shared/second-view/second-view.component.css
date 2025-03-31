@@ -84,3 +84,24 @@
 .card-body i {
     font-size: 2rem;
 }
+
+
+@media only screen and (max-width: 600px) {
+    #photo {
+        width: 5rem;
+        height: auto;
+    }
+}
+
+#photo {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    #photo {
+        min-width: 200px;
+    }
+}
