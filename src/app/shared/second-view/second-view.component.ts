@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-second-view',
@@ -7,6 +8,8 @@ import { Component } from '@angular/core';
   templateUrl: './second-view.component.html',
   styleUrl: './second-view.component.css'
 })
-export class SecondViewComponent {
-
+export class SecondViewComponent implements OnInit {
+  ngOnInit() {
+    AOS.init();
+  }
 }

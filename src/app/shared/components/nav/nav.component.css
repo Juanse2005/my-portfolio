@@ -20,11 +20,10 @@ nav {
 }
 
 .btn {
+    font-weight: bold;
     text-decoration: none;
     color: white;
     padding: 10px 15px;
-    border-radius: 5px;
-    background: rgba(255, 255, 255, 0.2);
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
@@ -32,6 +31,7 @@ nav {
     background: rgba(255, 255, 255, 0.4);
     transform: scale(1.05);
 }
+
 
 @media (max-width: 768px) {
     .nav {
