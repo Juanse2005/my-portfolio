@@ -1,7 +1,23 @@
 <header class="nav">
-    <nav>
-        <a href="#first-view" class="btn" aria-label="Ir a Inicio">Inicio</a>
-        <a href="#second-view" class="btn" aria-label="Sobre mí">Sobre mí</a>
-        <a href="#third-view" class="btn" aria-label="Ver proyectos">Proyectos</a>
-    </nav>
+  <nav>
+    <div class="logo">
+      <img src="assets/images/code.png" id="code-img" alt="" />
+      <p id="code-name">JuanseCode</p>
+    </div>
+
+    <div class="links">
+      <a href="#first-view" class="btn" aria-label="Ir a Inicio">Inicio</a>
+      <a href="#second-view" class="btn" aria-label="Sobre mí">Sobre mí</a>
+      <a href="#third-view" class="btn" aria-label="Ver proyectos">Proyectos</a>
+    </div>
+
+    <div class="social">
+      <span (click)="goToGithub()" style="cursor: pointer" onkeydown="">
+        <i class="devicon-github-original-wordmark colored" id="github-icon"></i>
+      </span>
+      <span (click)="goToLinkedin()" style="cursor: pointer" onkeydown="">
+        <i class="devicon-linkedin-plain" id="linkedin-icon"></i>
+      </span>
+    </div>
+  </nav>
 </header>
